@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 @Table(name = "users")
 public class User {
 
+    // Here we define our Object, what attributes are we giving the object
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
